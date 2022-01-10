@@ -1,0 +1,54 @@
+body{
+	width: 1024px;
+	background-color: lightgreen;
+	margin: 0 auto;
+}
+
+.hader{
+	display: flex;
+	height: 919px;
+	width: 1024px;
+	margin-top: 20px;
+	background-color: #ffffff;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: row wrap;
+	align-content: flex-start;
+	
+}
+.hader_1 ul{
+	display: flex;
+	margin-left: 10px;
+
+	
+}
+.hader_1 li{
+ padding-left: 20px;
+ list-style-type: none;
+}  
+
+.hader_1  a{
+	text-decoration: none;
+
+}
+.hader_1{
+	flex-basis: 255px;
+	flex-grow: 1;
+	
+
+}
+.hader_1:nth-child(1){
+	display: block;
+	flex-basis: 209px;
+	margin-left: 20px;	
+	
+}
+.hader_1:nth-child(2){
+	flex-basis: 485px;
+
+}
+.hader_1:nth-child(3){
+	margin-top: -10px;
+	flex-basis: 110px;
+	
+}
